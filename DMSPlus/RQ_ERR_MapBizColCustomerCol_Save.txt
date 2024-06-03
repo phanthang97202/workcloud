@@ -1,0 +1,115 @@
+{
+    "Data": {
+        "_strTId": "041798c8-18d4-49ed-b06f-d5215747a1dc",
+        "_strAppTId": "f6572c42-addd-4660-b554-a5e746ce92e3",
+        "_objTTime": "2024-06-03 16:39:53.647",
+        "_strType": "MapBizColCustomerColSave",
+        "_strErrCode": "ErridNDMSPlus.Mst_BizColumn_CheckDB_BizColumnNotFound",
+        "_objResult": null,
+        "_dicExcs": {
+            "Lst_c_K_DT_SysInfo": [
+                {
+                    "Tid": "041798c8-18d4-49ed-b06f-d5215747a1dc",
+                    "DigitalSignature": "",
+                    "ErrorCode": "ErridNDMSPlus.Mst_BizColumn_CheckDB_BizColumnNotFound",
+                    "FlagWarning": "0",
+                    "Remark": "",
+                    "FlagCompress": "0",
+                    "FlagEncrypt": "0"
+                }
+            ],
+            "Lst_c_K_DT_SysError": [
+                {
+                    "PCode": "strControllerName",
+                    "PVal": "MapBizColCustomerColSave"
+                },
+                {
+                    "PCode": "dtimeSys",
+                    "PVal": "2024-06-03 16:39:53.647"
+                },
+                {
+                    "PCode": "Tid",
+                    "PVal": "041798c8-18d4-49ed-b06f-d5215747a1dc"
+                },
+                {
+                    "PCode": "AppTId",
+                    "PVal": "f6572c42-addd-4660-b554-a5e746ce92e3"
+                },
+                {
+                    "PCode": "NetworkID",
+                    "PVal": "7206207001"
+                },
+                {
+                    "PCode": "OrgID",
+                    "PVal": "7206207001"
+                },
+                {
+                    "PCode": "AccessToken",
+                    "PVal": "Bearer 621UCsCLRp8JrXC83cSiyqkDSr6xVp5v1NJxSSqnaYpoCdw3nixhVS9mHxWd0mwlLzjcixupcldSLr61KBnIV8m2yHP50mCF_F_GvumIEnMg5FtHIfsjd_35fkGjPdgZKV3YeK4CjWn_JEaHpGg0DUQULpiTBsBqOdTO8A9-8_U9c0aUbUKs1uz8OW4hEW3ULGXE1ZGZhqUwF2S6l04QXBqHChE611mQf1-cJ6BxplDUJnay1oc_1e0Um7ES76__KQhkKNCyQcEGp6AEeAnfEEQjIm2r8ufexw_jZcc6-a8doApghncWH_otVtySSsJs92yxy2L5_7rvM65ES4vfIprwFtet8by13vTY41cX0eQIZgDy0XGQ1MGHSZPhaNIjtrRsbztPoKTxXqS0FmAkb5iKjPtxbw6gatvDY2yhXa0"
+                },
+                {
+                    "PCode": "strJson",
+                    "PVal": "[{\"BizCol\":\"AreaCode\",\"ColCodeSys\":\"C086\"},{\"BizCol\":\"CtmPhoneNo\",\"ColCodeSys\":\"CtmPhoneNo\"},{\"BizCol\":\"CustomerAddress\",\"ColCodeSys\":\"C01J\"},{\"BizCol\":\"CustomerCode\",\"ColCodeSys\":\"CustomerCode\"},{\"BizCol\":\"CustomerContactName\",\"ColCodeSys\":\"C028\"},{\"BizCol\":\"CustomerContactPhone\",\"ColCodeSys\":\"C01L\"},{\"BizCol\":\"CustomerName\",\"ColCodeSys\":\"CustomerName\"}]"
+                },
+                {
+                    "PCode": "strControllerName",
+                    "PVal": "Sys_User_GetForCurrentUser"
+                },
+                {
+                    "PCode": "dtimeSys",
+                    "PVal": "2024-06-03 16:39:53"
+                },
+                {
+                    "PCode": "strFunctionName",
+                    "PVal": "Sys_User_GetForCurrentUser"
+                },
+                {
+                    "PCode": "dtimeSys",
+                    "PVal": "2024-06-03 09:39:53"
+                },
+                {
+                    "PCode": "strFunctionName",
+                    "PVal": "Map_BizCol_CustomerCol_Save"
+                },
+                {
+                    "PCode": "dtimeSys",
+                    "PVal": "2024-06-03 09:39:53"
+                },
+                {
+                    "PCode": "objFlagIsDelete",
+                    "PVal": "0"
+                },
+                {
+                    "PCode": "strFunctionName",
+                    "PVal": "Map_BizCol_CustomerCol_SaveX"
+                },
+                {
+                    "PCode": "dtimeSys",
+                    "PVal": "2024-06-03 09:39:53"
+                },
+                {
+                    "PCode": "objFlagIsDelete",
+                    "PVal": "0"
+                },
+                {
+                    "PCode": "Check.dsData",
+                    "PVal": "{\"Map_BizCol_CustomerCol\":[{\"BizType\":null,\"BizCol\":\"AreaCode\",\"OrgID\":null,\"ColCodeSys\":\"C086\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null},{\"BizType\":null,\"BizCol\":\"CtmPhoneNo\",\"OrgID\":null,\"ColCodeSys\":\"CtmPhoneNo\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null},{\"BizType\":null,\"BizCol\":\"CustomerAddress\",\"OrgID\":null,\"ColCodeSys\":\"C01J\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null},{\"BizType\":null,\"BizCol\":\"CustomerCode\",\"OrgID\":null,\"ColCodeSys\":\"CustomerCode\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null},{\"BizType\":null,\"BizCol\":\"CustomerContactName\",\"OrgID\":null,\"ColCodeSys\":\"C028\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null},{\"BizType\":null,\"BizCol\":\"CustomerContactPhone\",\"OrgID\":null,\"ColCodeSys\":\"C01L\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null},{\"BizType\":null,\"BizCol\":\"CustomerName\",\"OrgID\":null,\"ColCodeSys\":\"CustomerName\",\"NetworkID\":null,\"FlagActive\":null,\"LogLUDTimeUTC\":null,\"LogLUBy\":null,\"mbt_BizType\":null,\"mbt_BizTypeName\":null,\"mbc_BizType\":null,\"mbc_BizCol\":null,\"mbc_BizColType\":null,\"mbc_BizColName\":null,\"mdmc_OrgID\":null,\"mdmc_ColCodeSys\":null,\"mdmc_ColCaption\":null}]}"
+                },
+                {
+                    "PCode": "Check.BizType",
+                    "PVal": "ORDERSO"
+                },
+                {
+                    "PCode": "Check.BizColType",
+                    "PVal": "Ord_OrderSOCustomer"
+                },
+                {
+                    "PCode": "Check.BizCol",
+                    "PVal": "AreaCode"
+                }
+            ],
+            "Lst_c_K_DT_SysWarning": []
+        },
+        "_dicDebug": {}
+    }
+}

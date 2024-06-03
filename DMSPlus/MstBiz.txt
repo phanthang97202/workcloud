@@ -1,0 +1,110 @@
+BizType:ORDERCALCPRM
+BizColType:Mst_Customer
+	{
+		"BizType": "ORDERCALCPRM",
+		"BizCol": "CustomerDateOfBirth",
+		"OrgID": "7206207001",
+		"ColCodeSys": "C009",
+		"NetworkID": "7206207001",
+		"FlagActive": "1",
+		"LogLUDTimeUTC": "2023-01-01",
+		"LogLUBy": "SYS",
+		"mbt_BizType": "ORDERCALCPRM",
+		"mbt_BizTypeName": "Tính Khuyến mại Đơn hàng",
+		"mbc_BizType": "ORDERCALCPRM",
+		"mbc_BizCol": "CustomerDateOfBirth",
+		"mbc_BizColType": "Mst_Customer",
+		"mbc_BizColName": "CustomerDateOfBirth",
+		"mdmc_OrgID": "7206207001",
+		"mdmc_ColCodeSys": "C009",
+		"mdmc_ColCaption": "Ngày sinh"
+	}
+	
+
+BizType:ORDERDL
+BizColType:Ord_OrderDLCustomer
+	{
+		"BizType": "ORDERDL",
+		"BizCol": "AreaCode",
+		"OrgID": "7206207001",
+		"ColCodeSys": "C086",
+		"NetworkID": "7206207001",
+		"FlagActive": "1",
+		"LogLUDTimeUTC": "2023-01-01",
+		"LogLUBy": "SYS",
+		"mbt_BizType": "ORDERDL",
+		"mbt_BizTypeName": "Đơn hàng Đại lý",
+		"mbc_BizType": "ORDERDL",
+		"mbc_BizCol": "AreaCode",
+		"mbc_BizColType": "Ord_OrderDLCustomerArea",
+		"mbc_BizColName": "AreaCode",
+		"mdmc_OrgID": "7206207001",
+		"mdmc_ColCodeSys": "C086",
+		"mdmc_ColCaption": "Vùng thị trường"
+	},
+	
+BizType:ORDERDL
+BizColType:Ord_OrderDLCustomerArea
+	{
+		"BizType": "ORDERDL",
+		"BizCol": "AreaCode",
+		"OrgID": "7206207001",
+		"ColCodeSys": "C086",
+		"NetworkID": "7206207001",
+		"FlagActive": "1",
+		"LogLUDTimeUTC": "2023-01-01",
+		"LogLUBy": "SYS",
+		"mbt_BizType": "ORDERDL",
+		"mbt_BizTypeName": "Đơn hàng Đại lý",
+		"mbc_BizType": "ORDERDL",
+		"mbc_BizCol": "AreaCode",
+		"mbc_BizColType": "Ord_OrderDLCustomerArea",
+		"mbc_BizColName": "AreaCode",
+		"mdmc_OrgID": "7206207001",
+		"mdmc_ColCodeSys": "C086",
+		"mdmc_ColCaption": "Vùng thị trường"
+	},
+
+BizType:ORDERSO
+BizColType:Ord_OrderDLCustomerArea
+	{
+		"BizType": "ORDERSO",
+		"BizCol": "AreaCode",
+		"OrgID": "7206207001",
+		"ColCodeSys": "C086",
+		"NetworkID": "7206207001",
+		"FlagActive": "1",
+		"LogLUDTimeUTC": "2023-01-01",
+		"LogLUBy": "SYS",
+		"mbt_BizType": "ORDERSO",
+		"mbt_BizTypeName": "Đơn hàng Bán Ngoài",
+		"mbc_BizType": "ORDERSO",
+		"mbc_BizCol": "AreaCode",
+		"mbc_BizColType": "Ord_OrderSOCustomerArea",
+		"mbc_BizColName": "AreaCode",
+		"mdmc_OrgID": "7206207001",
+		"mdmc_ColCodeSys": "C086",
+		"mdmc_ColCaption": "Vùng thị trường"
+	},
+	
+BizType:ORDERSR
+BizColType:Ord_ORDERSRCustomer	
+	{
+		"BizType": "ORDERSR",
+		"BizCol": "AreaCode",
+		"OrgID": "7206207001",
+		"ColCodeSys": "C086",
+		"NetworkID": "7206207001",
+		"FlagActive": "1",
+		"LogLUDTimeUTC": "2023-01-01",
+		"LogLUBy": "SYS",
+		"mbt_BizType": "ORDERSR",
+		"mbt_BizTypeName": "Đơn hàng Bán Lẻ",
+		"mbc_BizType": "ORDERSR",
+		"mbc_BizCol": "AreaCode",
+		"mbc_BizColType": "Ord_OrderSRCustomerArea",
+		"mbc_BizColName": "AreaCode",
+		"mdmc_OrgID": "7206207001",
+		"mdmc_ColCodeSys": "C086",
+		"mdmc_ColCaption": "Vùng thị trường"
+	},
