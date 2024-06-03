@@ -1,0 +1,53 @@
+95:Tổng hợp doanh thu dịch vụ:
+	+ Lỗi tìm kiếm: k bắt nhập ngày từ 
+	+ Lỗi in: ô Tổng chưa làm tròn, chưa có ngăn cách thập phân
+	+ Lỗi xuất excel:" - Kiểm tra lại file xuất dữ liệu excel. File xuất thiêu các cột Tổng Tiền, Khách hàng nợ, Bảo hiểm nợ, Thực thu
+			- Tên file chưa để tiếng việt không dấu"
+
+96:Báo cáo kết quả kinh doanh: 
+	+ Lỗi tìm kiếm: k bắt nhập ngày từ, ngày đến : Date và DatePaid
+	+ Lỗi in: " ((Từ ngày: .... đến ngày: ....)) thừa dấu ngoặc
+		- Ngày lập sai định dạng ngày tháng
+		- Tổng thu, Lợi nhuận, Tổng giá trị  không có giá trị
+		- TG-DV,  PT-Xuất , PT-Nhập chưa làm tròn, chưa có ngăn cách thập phân"
+	+ Lỗi xuất excel: "- Ngày vào xưởng sai định dạng ngày tháng
+			- TG-DV,  PT-Xuất , PT-Nhập, Lợi nhuận chưa làm tròn, chưa có ngăn cách thập phân
+			- Tên file chưa để tiếng việt không dấu"
+
+97:Báo cáo công nợ khách hàng
+	+ Lỗi xuất excel:"- Tên file chưa để tiếng việt không dấu
+			- Xuất excel không giống file mẫu thiết kế"
+
+98:Báo cáo công nợ bảo hiểm
+	+ Lỗi xuất excel:"- Tên file chưa để tiếng việt không dấu
+			- Đầu kỳ, PS Tăng, PS Giảm, Cuối kỳ chưa làm tròn"
+
+99:Báo cáo công nợ phải thu
+	+ Lỗi xuất excel:"- Tên file chưa để tiếng việt không dấu
+			-Tổng số tiền chưa làm tròn"
+
+100:Báo cáo tổng hợp nhập
+	+ Lỗi xuất excel:"Tổng số tiền, Tiền thuế, Tổng TT(VAT) chưa làm tròn
+			'- Tên file chưa để tiếng việt không dấu"
+
+101:Báo cáo tổng hợp xuất:
+	+ Lỗi in: - Yêu cầu sắp xếp thứ tự theo ngày xuất và số phiếu xuất
+	+ Lỗi xuất excel:" Tổng tiền chưa làm tròn
+			'- Tên file chưa để tiếng việt không dấu"
+
+140:Báo cáo chiến dịch NPP:
+	+ Lỗi hàm search: lỗi khi nhập dealerCode = ""
+
+142:Thống kê dịch vụ bảo dưỡng/ sửa chữa:
+	+ Lỗi hàm search: lỗi flagActive
+	+ Lỗi xuất excel:" - Tên file chưa đê tiếng việt không dấu
+			- Model hiển thị sai
+			- Thiếu cột Số Vin
+			- Ngày sửa chữa xe sai định dạng"
+	+ Lỗi in: check lại mẫu in
+
+143:Báo cáo bảo hành Xe CKD:
+	+ Lỗi hàm tìm kiếm: thiết kế không tìm theo plateNo, thiếu số khung
+	
+11: Quản lý giá bán phụ tùng
+	+ Mới chỉ có 1 hàm search, check lại thiết kế
